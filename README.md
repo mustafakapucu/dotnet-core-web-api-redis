@@ -14,7 +14,7 @@ dotnet add package StackExchange.Redis ( for Redis connection)
 
 dotnet add package Faker.Net (to create fake datas)
 
-dotnet add package Newtonsoft.Json (to convert to object)
+dotnet add package Newtonsoft.Json (to convert object)
 
 dotnet watch run
 
