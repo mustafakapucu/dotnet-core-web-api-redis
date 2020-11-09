@@ -9,9 +9,13 @@ config get databases
 
 # Dotnet Core Project
 dotnet new webapi --name simple_redis_api_on_docker
+
 dotnet add package StackExchange.Redis ( for Redis connection)
+
 dotnet add package Faker.Net (to create fake datas)
+
 dotnet add package Newtonsoft.Json (to convert to object)
+
 dotnet watch run
 
 
