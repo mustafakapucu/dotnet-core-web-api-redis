@@ -1,5 +1,4 @@
 # dotnet-core-web-api-redis_on_docker
-dotnet-core-web-api-redis
 
 #Redis on Docker
 docker run --rm -p 1453:6379 --name rediscontainer -d redis
