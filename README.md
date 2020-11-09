@@ -2,7 +2,9 @@
 
 # Redis on Docker
 docker run --rm -p 1453:6379 --name rediscontainer -d redis
+
 docker exec -it 2e92(container uniq id) redis-cli
+
 config get databases
 
 # Dotnet Core Project
